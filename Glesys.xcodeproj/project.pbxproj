@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2804D1FB14E81E250057B4BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2804D1FA14E81E250057B4BD /* UIKit.framework */; };
+		2804D1FD14E81E250057B4BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2804D1FC14E81E250057B4BD /* Foundation.framework */; };
+		2804D1FF14E81E250057B4BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2804D1FE14E81E250057B4BD /* CoreGraphics.framework */; };
+		2804D20514E81E250057B4BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2804D20314E81E250057B4BD /* InfoPlist.strings */; };
+		2804D20714E81E250057B4BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804D20614E81E250057B4BD /* main.m */; };
+		2804D20B14E81E250057B4BD /* indieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804D20A14E81E250057B4BD /* indieAppDelegate.m */; };
+		2804D20E14E81E250057B4BD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2804D20C14E81E250057B4BD /* MainStoryboard.storyboard */; };
+		2804D21114E81E250057B4BD /* indieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804D21014E81E250057B4BD /* indieViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2804D1F614E81E250057B4BD /* Glesys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glesys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2804D1FA14E81E250057B4BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2804D1FC14E81E250057B4BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2804D1FE14E81E250057B4BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2804D20214E81E250057B4BD /* Glesys-Info.plist */ = {isa = PBXFileReference; path = "Glesys-Info.plist"; sourceTree = "<group>"; };
+		2804D20414E81E250057B4BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2804D20614E81E250057B4BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2804D20814E81E250057B4BD /* Glesys-Prefix.pch */ = {isa = PBXFileReference; path = "Glesys-Prefix.pch"; sourceTree = "<group>"; };
+		2804D20914E81E250057B4BD /* indieAppDelegate.h */ = {isa = PBXFileReference; path = indieAppDelegate.h; sourceTree = "<group>"; };
+		2804D20A14E81E250057B4BD /* indieAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indieAppDelegate.m; sourceTree = "<group>"; };
+		2804D20D14E81E250057B4BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2804D20F14E81E250057B4BD /* indieViewController.h */ = {isa = PBXFileReference; path = indieViewController.h; sourceTree = "<group>"; };
+		2804D21014E81E250057B4BD /* indieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indieViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2804D1F314E81E250057B4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2804D1FB14E81E250057B4BD /* UIKit.framework in Frameworks */,
+				2804D1FD14E81E250057B4BD /* Foundation.framework in Frameworks */,
+				2804D1FF14E81E250057B4BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2804D1EB14E81E250057B4BD = {
+			isa = PBXGroup;
+			children = (
+				2804D20014E81E250057B4BD /* Glesys */,
+				2804D1F914E81E250057B4BD /* Frameworks */,
+				2804D1F714E81E250057B4BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2804D1F714E81E250057B4BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2804D1F614E81E250057B4BD /* Glesys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2804D1F914E81E250057B4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2804D1FA14E81E250057B4BD /* UIKit.framework */,
+				2804D1FC14E81E250057B4BD /* Foundation.framework */,
+				2804D1FE14E81E250057B4BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2804D20014E81E250057B4BD /* Glesys */ = {
+			isa = PBXGroup;
+			children = (
+				2804D20914E81E250057B4BD /* indieAppDelegate.h */,
+				2804D20A14E81E250057B4BD /* indieAppDelegate.m */,
+				2804D20C14E81E250057B4BD /* MainStoryboard.storyboard */,
+				2804D20F14E81E250057B4BD /* indieViewController.h */,
+				2804D21014E81E250057B4BD /* indieViewController.m */,
+				2804D20114E81E250057B4BD /* Supporting Files */,
+			);
+			path = Glesys;
+			sourceTree = "<group>";
+		};
+		2804D20114E81E250057B4BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2804D20214E81E250057B4BD /* Glesys-Info.plist */,
+				2804D20314E81E250057B4BD /* InfoPlist.strings */,
+				2804D20614E81E250057B4BD /* main.m */,
+				2804D20814E81E250057B4BD /* Glesys-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2804D1F514E81E250057B4BD /* Glesys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2804D21414E81E250057B4BD /* Build configuration list for PBXNativeTarget "Glesys" */;
+			buildPhases = (
+				2804D1F214E81E250057B4BD /* Sources */,
+				2804D1F314E81E250057B4BD /* Frameworks */,
+				2804D1F414E81E250057B4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glesys;
+			productName = Glesys;
+			productReference = 2804D1F614E81E250057B4BD /* Glesys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2804D1ED14E81E250057B4BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2804D1F014E81E250057B4BD /* Build configuration list for PBXProject "Glesys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2804D1EB14E81E250057B4BD;
+			productRefGroup = 2804D1F714E81E250057B4BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2804D1F514E81E250057B4BD /* Glesys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2804D1F414E81E250057B4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2804D20514E81E250057B4BD /* InfoPlist.strings in Resources */,
+				2804D20E14E81E250057B4BD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2804D1F214E81E250057B4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2804D20714E81E250057B4BD /* main.m in Sources */,
+				2804D20B14E81E250057B4BD /* indieAppDelegate.m in Sources */,
+				2804D21114E81E250057B4BD /* indieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2804D20314E81E250057B4BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2804D20414E81E250057B4BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2804D20C14E81E250057B4BD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2804D20D14E81E250057B4BD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2804D21214E81E250057B4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2804D21314E81E250057B4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2804D21514E81E250057B4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glesys/Glesys-Prefix.pch";
+				INFOPLIST_FILE = "Glesys/Glesys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2804D21614E81E250057B4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glesys/Glesys-Prefix.pch";
+				INFOPLIST_FILE = "Glesys/Glesys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2804D1F014E81E250057B4BD /* Build configuration list for PBXProject "Glesys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2804D21214E81E250057B4BD /* Debug */,
+				2804D21314E81E250057B4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2804D21414E81E250057B4BD /* Build configuration list for PBXNativeTarget "Glesys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2804D21514E81E250057B4BD /* Debug */,
+				2804D21614E81E250057B4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2804D1ED14E81E250057B4BD /* Project object */;
+}
