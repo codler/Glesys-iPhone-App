@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface indieViewController : UIViewController
+@interface indieViewController : UIViewController <UITextFieldDelegate> {
+    NSMutableData* responseData;
+    CGPoint svos;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *info;
+@property (weak, nonatomic) IBOutlet UITextField *instanceID;
+@property (weak, nonatomic) IBOutlet UITextField *username;
+@property (weak, nonatomic) IBOutlet UITextField *APIKey;
+
+- (IBAction)refresh:(id)sender;
+//- (void) APIFetch;
+- (IBAction)keyboardEnd:(id)sender;
 
 @end
